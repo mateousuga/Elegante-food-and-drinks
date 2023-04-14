@@ -1,0 +1,27 @@
+body {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+h1 {
+    font-family: 'Algeria', sans-serif;
+    font: small-caps 250%/1% Algeria;
+    color: white;
+}
+h2 {
+    font-family: 'Algeria', sans-serif;
+    font: Algeria 150% cursive;
+    color:rgb(99, 77, 18);
+}
+#banner {
+    width: 100%;
+}
+.concepto {
+    margin-top: 2%;
+    display: flex;
+}
+.elegante {
+    display: inline-block;
+    width: 50%;
+}
+.concep {
+    width: 50%;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <h1> <img class ="logo" src="img/logo1.png"> </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <label for="name">Nombre y apellido</label>
+            <input type="text" name="name" id="name" class="input-padron" required>
+
+            <label for="email">Correo electronico</label>
+            <input type="email" name="email" id="email" class="input-padron" required>
+
+            <label for="phone">Telefono</label>
+            <input type="tel" name="phone" id="phone" class="input-padron" required>
+            
+            <label for="mensagge">Mensaje</label>
+            <textarea name="mensagge" id="mensagge" cols="70" rows="10" class="input-padron" required></textarea>
+
+            <fieldset>
+                <legend>¿En qué canal quieres que te contactemos?</legend>
+                <label for="radio-email"><input type="radio" name="contacto" id="radio-email">Email</label>                
+
+                <label for="radio-phone"><input type="radio" name="contacto" id="radio-phone">Telefono</label>                
+
+                <label for="radio-whatsapp"><input type="radio" name="radcontacto" id="radio-whatsapp" checked>Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>¿En qué horario quieres ser atentido?</legend>
+                <select name="" id="">
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </fieldset>
+            <label for="notificaciones" class="checkbox"><input type="checkbox" name="notificaciones" id="notificaciones" checked>¿Le gustaria recibir novedades del restaurante?</label>
+            <input type="submit" value="Enviar formulario" id="formulario" class="enviar">
+        </form>
+    </main>
+    <footer>
+        <img src="img/logo1.png" alt="">
+        <p>&copy Copyright ELEGANTE - 2023</p>
+    </footer>
+</body>
+</html>

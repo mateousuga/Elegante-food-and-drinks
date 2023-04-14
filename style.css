@@ -1,21 +1,131 @@
 body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Serif Pro', serif;
     background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
 }
-h1 {
-    font-family: 'Algeria', sans-serif;
-    font: small-caps 250%/1% Algeria;
+header {
+    padding: 20px 0;
+}
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+}
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+nav li {
+    display: inline;
+    margin-left: 15px; 
+}
+nav a {
+    text-transform: uppercase;
+    color: rgba(255, 166, 0, 0.603);
+    font-weight: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: rgb(226, 149, 5);
+}
+.entradas {
+    text-align: center;
+    color: gold;
+    font-size: 30px;
+}
+.productos {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li {
+    display: inline-block; 
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 10px;
+}
+.productos li:hover {
+    border-color:gold;
+}
+.productos h2 {
+    color: rgba(255, 153, 0, 0.829);
+    font-size: 30px;
+    font-weight: bold;
+}
+.producto-descripcion {
+    color: rgba(255, 153, 0, 0.829);
+    font-size: 13px;
+}
+.producto-precio {
+    color: rgba(255, 153, 0, 0.829);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.img {
+    padding-top: 10px;
+}
+footer {
+    text-align: center;
+    color: gold;
+    padding: 20px;
+}
+
+/*estilos del form*/
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+form {
+    color: aliceblue;
+    margin: 40px 0;
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox {
+    margin: 20px 0;
+}
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18;
+    font-weight: bold;
     color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    transition: 1s all;
+    cursor: pointer;
 }
-h2 {
-    font-family: 'Algeria', sans-serif;
-    font: Algeria 150% cursive;
-    color:rgb(99, 77, 18);
+.enviar:hover { 
+    background: darkred;
+    transform: scale(1.2);
 }
-#banner {
+/*index*/
+.banner {
     width: 100%;
 }
 .concepto {
-    margin-top: 2%;
+    padding: 20px 0;
     display: flex;
 }
 .elegante {
@@ -24,4 +134,10 @@ h2 {
 }
 .concep {
     width: 50%;
+}
+.tittle-map {
+    text-align: center;
+    color: gold;
+    font-size: 30px;
+    padding: 30px;
 }
